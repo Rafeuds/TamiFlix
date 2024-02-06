@@ -1,0 +1,14 @@
+button {
+    background-color: #4caf50; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Adicionar borda arredondada */
+    cursor: pointer; /* Alterar cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Efeito de transição suave na cor de fundo */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+  }

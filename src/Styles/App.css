@@ -1,0 +1,38 @@
+
+  /* Background */
+  .intro {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(../Assets/Background.png) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.button1 { /* Botão de Entrar*/ 
+  position: fixed; 
+  top: 70%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.button2 { /* Botão de Tutorial*/ 
+  position: fixed; 
+  top: 78%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.button3 { /* Botão de Contato*/ 
+  position: fixed; 
+  top: 86%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}

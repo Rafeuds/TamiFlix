@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/electron-vite.animate.svg'
-import '../App.css'
+import '../Styles/App.css'
+import Button from './Button';
+
+
+//<div style={{ backgroundImage: `url(${background})` }}>
+//Esse pega a imagem e vai aumentando de acordo com as divs
+
+const handleClick = () => {
+  console.log('Botão clicado!');
+  // Adicione o código que deseja executar quando o botão for clicado
+};
 
 function App() {
-  const [count, setCount] = useState(0)
+  return <div className="intro">
 
-  return (
-    <>
-      <div>
-        <a href="https://electron-vite.github.io" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className='button1'> <Button texto={"Entrar"} onClick={handleClick}></Button></div>
+
+    <div className='button2'> <Button texto={"Tutorial"} onClick={handleClick}></Button></div>
+
+    <div className='button3'> <Button texto={"Fale Comigo"} onClick={handleClick}></Button></div>
+
+  </div>
 }
 
-export default App
+export default App;
