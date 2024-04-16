@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../Styles/TelaInicio.css'
 import '../Styles/Background.css'
-import Button from './Button';
+import Button from '../Components/Button';
 
 
 
@@ -15,6 +15,8 @@ function TelaInicio() {
 
 
     return <div className="fundo">
+
+        <img src='../Assets/teste.png'></img>
 
         <div className='button1'> <Button texto={"Entrar"} onClick={ () => changeRoute("principal")}></Button></div>
 

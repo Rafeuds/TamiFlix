@@ -1,0 +1,8 @@
+.myDiv{
+    width: '200px';
+    height: '100px';
+    background-color: lightblue;
+    position: absolute; /* Define a posição absoluta */
+    top: 150px; /* Define a distância do topo da tela */
+    left: 300px; /* Define a distância da esquerda da tela */
+}

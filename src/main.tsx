@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './Components/App.tsx'
 import 'bootstrap/dist/css/bootstrap.css'
 import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom'
-import TelaInicio from './Components/TelaInicio.tsx'
-import TelaContato from './Components/TelaContato.tsx'
-import TelaPrincipal from './Components/TelaPrincipal.tsx'
-import TelaTutorial from './Components/TelaTutorial.tsx'
+import TelaInicio from './Routes/TelaInicio.tsx'
+import TelaContato from './Routes/TelaContato.tsx'
+import TelaPrincipal from './Routes/TelaPrincipal.tsx'
+import TelaTutorial from './Routes/TelaTutorial.tsx'
 
 
 const router = createBrowserRouter([

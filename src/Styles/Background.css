@@ -6,7 +6,7 @@
     padding: 0;
     text-align: center;
     color: white;
-    background: url(../Assets/Background.png) no-repeat bottom center scroll;
+    background: url(../Assets/Background.png) no-repeat bottom center scroll; /*ARRUMAR*/
     background-position: 30% 45%;
     background-color: black;
     -webkit-background-size: cover;
