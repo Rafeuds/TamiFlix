@@ -8,7 +8,7 @@ import TelaContato from './Routes/TelaContato.tsx'
 import TelaPrincipal from './Routes/TelaPrincipal.tsx'
 import TelaTutorial from './Routes/TelaTutorial.tsx'
 
-
+//Lista de rotas da aplicação
 const router = createBrowserRouter([
 
   {
@@ -32,10 +32,11 @@ const router = createBrowserRouter([
   },
 ])
 
+//Atualiza as rotas em tempo real
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <RouterProvider router={router}/>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
 
 // Remove Preload scripts loading

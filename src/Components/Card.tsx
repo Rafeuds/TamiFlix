@@ -1,5 +1,6 @@
 import '../Styles/Card.css';
 import Button from './Button';
+import Hearth from './Heart';
 
 interface CardProps {
   title: string;
@@ -9,6 +10,7 @@ interface CardProps {
 const Card = ({ title, content }: CardProps) => {
   return (
     <div className="card">
+      <Hearth></Hearth>
       <h2>{title}</h2>
       <p>{content}</p>
       <Button onClick={() => console.log("")} texto={"Assistir"} />

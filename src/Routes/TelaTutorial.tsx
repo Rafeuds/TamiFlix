@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "../Components/Button";
 import '../Styles/Background.css' 
 
+
 function TelaTutorial(){
 
     const navigate = useNavigate()

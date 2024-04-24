@@ -16,8 +16,6 @@ function TelaInicio() {
 
     return <div className="fundo">
 
-        <img src='../Assets/teste.png'></img>
-
         <div className='button1'> <Button texto={"Entrar"} onClick={ () => changeRoute("principal")}></Button></div>
 
         <div className='button2'> <Button texto={"Tutorial"} onClick={() => changeRoute("tutorial")}></Button></div>

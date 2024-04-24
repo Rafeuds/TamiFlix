@@ -1,5 +1,8 @@
 import '../Styles/Button.css'
 
+/*Componente do botão, recebe um texto e uma função que 
+define o clique */ 
+
 interface Button_Props {
     texto: String
     onClick: () => void

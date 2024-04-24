@@ -1,0 +1,30 @@
+  
+.like {
+  width: 48px;
+  height: 48px;
+  position: absolute; 
+  top: 2%; 
+  right: 2%; 
+}
+
+.like-no {
+  background: url("../Assets/dislike.svg") no-repeat;
+  width: 45px; /* Defina o tamanho desejado */
+  height: 40px; /* Defina o tamanho desejado */
+  cursor: pointer; /* Cursor de mão para indicar que é clicável */
+
+  border-radius: 10px; /* Borda arredondada para criar um formato de coração */
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+}
+
+.like-yes {
+  background: url("../Assets/like.svg") no-repeat;
+  width: 45px; /* Defina o tamanho desejado */
+  height: 40px; /* Defina o tamanho desejado */
+  cursor: pointer; /* Cursor de mão para indicar que é clicável */
+  border-radius: 10px; /* Borda arredondada para criar um formato de coração */
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+
+}
