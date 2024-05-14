@@ -1,0 +1,18 @@
+.watch-no {
+    font-size: 2.3em;
+    cursor: pointer;
+    opacity: 0.5;
+    position: absolute;
+    right: 2%; 
+    top: 1%;
+}
+
+.watch {
+    font-size: 2.1em;
+    cursor: pointer;
+    opacity: 0.8;
+    position: absolute;
+    right: 3%; 
+    top: 2%;
+}
+
