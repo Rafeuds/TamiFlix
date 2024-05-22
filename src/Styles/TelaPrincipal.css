@@ -1,8 +1,31 @@
 .myDiv{
-    width: '200px';
-    height: '100px';
     background-color: lightblue;
-    position: absolute; /* Define a posição absoluta */
-    top: 150px; /* Define a distância do topo da tela */
-    left: 300px; /* Define a distância da esquerda da tela */
+    position: fixed; /* Define a posição absoluta */
+    top: 200px; /* Define a distância do topo da tela */
+    left: 150px; /* Define a distância da esquerda da tela */
+    right:150px;
+    bottom: 0px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.myDiv::-webkit-scrollbar {
+    width: 15px;
+}
+
+.myDiv::-webkit-scrollbar-track {
+    background: rgb(162, 186, 194);
+    border-radius: 10px;
+}
+
+
+
+.myDiv::-webkit-scrollbar-thumb {
+    background: rgb(206, 78, 78);
+    border-radius: 10px;
+}
+
+.myDiv::-webkit-scrollbar-thumb:hover {
+    background: rgb(204, 44, 44);
+    border-radius: 10px;
 }
