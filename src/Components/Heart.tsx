@@ -3,7 +3,7 @@ import { GoHeart, GoHeartFill } from 'react-icons/go';
 import '../Styles/Hearth.css'
 
 
-/*Componente que verifica se o episodio do card está 
+/* Componente que verifica se o episodio do card está 
 marcado como favorito */
 
 

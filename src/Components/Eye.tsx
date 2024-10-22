@@ -8,7 +8,7 @@ const Eye = () => {
     const [watch, setWatch] = useState<boolean>()
 
     const toggleWatch = () => {
-        setWatch(!watch); // Alternar entre true e false
+        setWatch(!watch); // Alternar entre true e  false
       };
   
     return (
